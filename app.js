@@ -11,7 +11,7 @@ app.use(morgan('combined'));
 app.set('port', (process.env.PORT || 8080));
 
 app.set('views', path.join(__dirname, 'views'))
-app.set('view engine', 'ejs')
+app.set('view engine', 'hbs')
 
 app.use('/', require(path.join(__dirname, 'routes', 'index.js')))
 app.listen(app.get('port'), function(err){
