@@ -1,0 +1,27 @@
+{
+  "name": "RepTheHouseV2",
+  "homepage": "https://github.com/Jingo88/RepTheHouseV2",
+  "authors": [
+    "Avi Zacherman <avizacherman@gmail.com>",
+    "Jason Ng <jcory.ng@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [
+    "es6",
+    "globals",
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "react": "^0.14.7"
+  }
+}
