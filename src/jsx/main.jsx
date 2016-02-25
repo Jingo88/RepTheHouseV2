@@ -1,1 +1,2 @@
-import React from "../bower_components/react/react"
+import React from "react"
+import ReactDOM from "react-dom"
