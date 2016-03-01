@@ -19065,9 +19065,18 @@ var App = function (_React$Component) {
     value: function render() {
       return _react2.default.createElement(
         "div",
-        { className: "something" },
-        "GET WRECKED ",
-        this.props.name
+        { id: "blah" },
+        _react2.default.createElement(
+          "p",
+          null,
+          "We are Rep The House. A site meant to provide you as much information as possible in a user friendly manner..."
+        ),
+        _react2.default.createElement(
+          "h3",
+          null,
+          "This is a test for props name. Welcome ",
+          this.props.name
+        )
       );
     }
   }]);
@@ -19094,6 +19103,6 @@ var _app2 = _interopRequireDefault(_app);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-_reactDom2.default.render(_react2.default.createElement(_app2.default, { name: "Jason" }), document.getElementById('something'));
+_reactDom2.default.render(_react2.default.createElement(_app2.default, { name: "Jason" }), document.getElementById('home'));
 
 },{"./app":159,"react":158,"react-dom":29}]},{},[160]);

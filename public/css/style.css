@@ -1,0 +1,32 @@
+/*test react jsx for css shit*/
+#blah {
+	color: red;
+}
+
+/*making a nav bar for the layout*/
+nav {
+	width: 100%;
+	padding: 0;
+	margin: auto;
+	background-color: #18DEFB;
+}
+
+a {
+	text-decoration: none;
+	text-align: center;
+}
+
+ul{
+	width: 20%;
+	background-color: #FB230F;
+}
+
+li {
+	display: inline;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+
+li:hover{
+	background-color: #59FB22;
+}

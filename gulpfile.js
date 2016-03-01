@@ -14,8 +14,7 @@ gulp.task('browserify', ()=>{
   .pipe(source('main.jsx'))
   .pipe(rename('bundle.js'))
   .pipe(gulp.dest(path.join(__dirname, '/public/js')))
-
-})
+});
 
 gulp.task('watch', ()=>{
   gulp.watch(path.join(__dirname, '/src/jsx/*.jsx'), ["browserify"])
